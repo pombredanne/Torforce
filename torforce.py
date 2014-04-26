@@ -17,7 +17,7 @@ def main(args):
             domain = "." + args.top_level_domain
         else:
             domain = args.top_level_domain
-    for _ in range(1, args.number_of_links):
+    for _ in range(0, args.number_of_links):
         alpha = list("1eFGHIJKLM2NOP6QRs5tuvabcdw3xyzABC7DE4fghijklm8no0pqrST9UVWXYZ")
         random.shuffle(alpha)
         random.shuffle(alpha)
