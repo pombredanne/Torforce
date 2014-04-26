@@ -1,5 +1,4 @@
 import random
-from itertools import product
 import argparse
 
 # Author:   Daxda
